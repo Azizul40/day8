@@ -1,0 +1,344 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  outline: none;
+  box-sizing: border-box;
+}
+img{
+  vertical-align: middle;
+}
+a{
+  text-decoration: none;
+}
+ul,ol{
+  list-style: none;
+}
+/*
+  commom css end
+*/
+
+h2{
+  color: orange;
+  font-style: italic;
+  background-color: grey;
+  text-align: center;
+  padding: 10px 0px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.div1{
+  width: 500px;
+  height: 500px;
+  background-color: #8bfafa;
+  margin: 50px auto;
+  position: relative;
+  animation-name: color_chang;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 3s;
+
+}
+@keyframes color_chang {
+  form{
+    background: #dfe4b3;
+  }
+  to{
+    background: #be7f86;
+  }
+}
+.div2{
+  width: 200px;
+  height: 200px;
+  background-color: #478d66;
+  position: absolute;
+  left:0;
+  bottom: 0;
+}
+.div3{
+  width: 200px;
+  height: 200px;
+  background-color: #e18a56;
+  position: absolute;
+  right:  0;
+  bottom: 0;
+}
+.div4{
+  width: 200px;
+  height: 200px;
+  background-color: #9834ac;
+  position: absolute;
+  right: 0;
+}
+.div5{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(245, 165, 16);
+  position: absolute;
+  left: 0;
+}
+/* position css end*/
+.main-div{
+  width: 500px;
+  height: 500px;
+  background-color: olive;
+  margin: 50px auto;
+  position: relative;
+}
+.a_div{
+  width: 200px;
+  height: 200px;
+  background-color: lime;
+  
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+.b_div{
+  width: 200px;
+  height: 200px;
+  background-color: peru;
+
+  position: absolute;
+  top: 60px;
+  left: 110px;
+}
+.c_div {
+  width: 200px;
+  height: 200px;
+  background-color: darkcyan;
+
+  position: absolute;
+  top: 70px;
+  left: 120px;
+}
+.d_div {
+  width: 200px;
+  height: 200px;
+  background-color: burlywood;
+
+  position: absolute;
+  top: 80px;
+  left: 130px;
+}
+.e_div {
+  width: 200px;
+  height: 200px;
+  background-color: #527bda;
+
+  position: absolute;
+  top: 90px;
+  left: 140px;
+}
+.f_div {
+  width: 200px;
+  height: 200px;
+  background-color: #5e2024;
+
+  position: absolute;
+  top: 100px;
+  left: 150px;
+}
+.g_div {
+  width: 200px;
+  height: 200px;
+  background-color: #ebc9c8;
+
+  position: absolute;
+  top: 110px;
+  left: 160px;
+}
+.h_div {
+  width: 200px;
+  height: 200px;
+  background-color: #c99b5a;
+
+  position: absolute;
+  top: 120px;
+  left: 170px;
+}
+.i_div {
+  width: 200px;
+  height: 200px;
+  background-color: #6b877a;
+
+  position: absolute;
+  top: 130px;
+  left: 180px;
+}
+.j_div {
+  width: 200px;
+  height: 200px;
+  background-color:#1649e3;
+
+  position: absolute;
+  top: 140px;
+  left: 190px;
+}
+.k_div {
+  width: 200px;
+  height: 200px;
+  background-color: #59d657;
+
+  position: absolute;
+  top: 150px;
+  left: 200px;
+}
+.l_div {
+  width: 200px;
+  height: 200px;
+  background-color: #a0d0c1;
+
+  position: absolute;
+  top: 160px;
+  left: 210px;
+}
+
+
+
+/* my css end*/
+
+.paragrap{
+  text-align: center;
+}
+.a_h{
+  color: orange;
+  font-style: italic;
+  background-color: grey;
+  text-align: center;
+  padding: 10px 0px;
+  text-transform: capitalize;
+  font-weight: 500;
+  
+}
+
+
+.ani_1{
+  width: 200px;
+  height: 200px;
+  background-color: #549070;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  margin: 20px auto;
+}
+
+@keyframes example {
+  from {background-color: #549070;}
+  to {background-color: #bc7d42;}
+}
+
+.ani_2{
+  width: 200px;
+  height: 200px;
+  background-color: #423aa2;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  margin: 20px auto;
+}
+
+@keyframes example {
+  0%   {background-color: #423aa2;}
+  25%  {background-color: #9868e2;}
+  50%  {background-color: rgb(123, 123, 185);}
+  100% {background-color: rgb(77, 116, 77);}
+}
+
+.ani_3{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(16, 236, 218);
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  margin: 20px auto;
+}
+
+@keyframes example {
+  0%   {
+    background-color:rgb(17, 226, 209); 
+    left:0px; 
+    top:0px;
+  }
+  25%  {
+    background-color:rgb(142, 212, 13); 
+    left:200px; 
+    top:0px;
+  }
+  50%  {
+    background-color:rgb(218, 42, 194);
+     left:200px; 
+     top:200px;
+    }
+  75%  {
+    background-color:rgb(5, 167, 145);
+     left:0px;
+      top:200px;
+    }
+  100% {background-color:rgb(5, 73, 90); left:0px; top:0px;}
+}
+
+.ani_4 {
+  width: 200px;
+  height: 200px;
+  background-color: #bc7d42;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-direction: reverse; 
+  animation-iteration-count: infinite; 
+  margin: 20px auto;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+.ani_5{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-direction: reverse;  
+  margin: 20px auto;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+.ani_6{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+  margin: 20px auto;
+}
+
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
